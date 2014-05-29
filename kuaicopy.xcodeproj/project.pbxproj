@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B641BBA1937609F005EB21C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B641BB91937609F005EB21C /* Cocoa.framework */; };
+		3B641BC41937609F005EB21C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3B641BC21937609F005EB21C /* InfoPlist.strings */; };
+		3B641BC61937609F005EB21C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B641BC51937609F005EB21C /* main.m */; };
+		3B641BCA1937609F005EB21C /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 3B641BC81937609F005EB21C /* Credits.rtf */; };
+		3B641BCD1937609F005EB21C /* UTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B641BCC1937609F005EB21C /* UTAppDelegate.m */; };
+		3B641BD21937609F005EB21C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B641BD11937609F005EB21C /* Images.xcassets */; };
+		3B641BD91937609F005EB21C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B641BD81937609F005EB21C /* XCTest.framework */; };
+		3B641BDA1937609F005EB21C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B641BB91937609F005EB21C /* Cocoa.framework */; };
+		3B641BE21937609F005EB21C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3B641BE01937609F005EB21C /* InfoPlist.strings */; };
+		3B641BE41937609F005EB21C /* kuaicopyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B641BE31937609F005EB21C /* kuaicopyTests.m */; };
+		3B641BEF1937623B005EB21C /* UTAvFoundationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B641BEE1937623B005EB21C /* UTAvFoundationView.m */; };
+		3B641C22193781F8005EB21C /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B641C1D193781F8005EB21C /* TFHpple.m */; };
+		3B641C23193781F8005EB21C /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B641C1F193781F8005EB21C /* TFHppleElement.m */; };
+		3B641C24193781F8005EB21C /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B641C21193781F8005EB21C /* XPathQuery.m */; };
+		3B641C2619378206005EB21C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B641C2519378206005EB21C /* AVFoundation.framework */; };
+		3B641C281937820B005EB21C /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B641C271937820B005EB21C /* libxml2.2.dylib */; };
+		3B641C291937824A005EB21C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B641C2B1937824A005EB21C /* MainMenu.xib */; };
+		3B641C30193782C1005EB21C /* Demo.mov in Resources */ = {isa = PBXBuildFile; fileRef = 3B641C2F193782C1005EB21C /* Demo.mov */; };
+		3B641C3319378551005EB21C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3B641C3519378551005EB21C /* Localizable.strings */; };
+		3B641C3819378731005EB21C /* kuaicopy.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 3B641C3719378731005EB21C /* kuaicopy.entitlements */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B641BDB1937609F005EB21C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B641BAE1937609F005EB21C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B641BB51937609F005EB21C;
+			remoteInfo = kuaicopy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B641BB61937609F005EB21C /* kuaicopy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kuaicopy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B641BB91937609F005EB21C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		3B641BBC1937609F005EB21C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		3B641BBD1937609F005EB21C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		3B641BBE1937609F005EB21C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3B641BC11937609F005EB21C /* kuaicopy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "kuaicopy-Info.plist"; sourceTree = "<group>"; };
+		3B641BC31937609F005EB21C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3B641BC51937609F005EB21C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3B641BC71937609F005EB21C /* kuaicopy-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "kuaicopy-Prefix.pch"; sourceTree = "<group>"; };
+		3B641BC91937609F005EB21C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		3B641BCB1937609F005EB21C /* UTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UTAppDelegate.h; sourceTree = "<group>"; };
+		3B641BCC1937609F005EB21C /* UTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UTAppDelegate.m; sourceTree = "<group>"; };
+		3B641BD11937609F005EB21C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3B641BD71937609F005EB21C /* kuaicopyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kuaicopyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B641BD81937609F005EB21C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3B641BDF1937609F005EB21C /* kuaicopyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "kuaicopyTests-Info.plist"; sourceTree = "<group>"; };
+		3B641BE11937609F005EB21C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3B641BE31937609F005EB21C /* kuaicopyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kuaicopyTests.m; sourceTree = "<group>"; };
+		3B641BED1937623B005EB21C /* UTAvFoundationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTAvFoundationView.h; sourceTree = "<group>"; };
+		3B641BEE1937623B005EB21C /* UTAvFoundationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTAvFoundationView.m; sourceTree = "<group>"; };
+		3B641C1C193781F8005EB21C /* TFHpple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TFHpple.h; path = TFHpple/TFHpple.h; sourceTree = SOURCE_ROOT; };
+		3B641C1D193781F8005EB21C /* TFHpple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TFHpple.m; path = TFHpple/TFHpple.m; sourceTree = SOURCE_ROOT; };
+		3B641C1E193781F8005EB21C /* TFHppleElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TFHppleElement.h; path = TFHpple/TFHppleElement.h; sourceTree = SOURCE_ROOT; };
+		3B641C1F193781F8005EB21C /* TFHppleElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TFHppleElement.m; path = TFHpple/TFHppleElement.m; sourceTree = SOURCE_ROOT; };
+		3B641C20193781F8005EB21C /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XPathQuery.h; path = TFHpple/XPathQuery.h; sourceTree = SOURCE_ROOT; };
+		3B641C21193781F8005EB21C /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XPathQuery.m; path = TFHpple/XPathQuery.m; sourceTree = SOURCE_ROOT; };
+		3B641C2519378206005EB21C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3B641C271937820B005EB21C /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = usr/lib/libxml2.2.dylib; sourceTree = SDKROOT; };
+		3B641C2A1937824A005EB21C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		3B641C2C1937825D005EB21C /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		3B641C2D1937825D005EB21C /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hans"; path = "zh-Hans.lproj/MainMenu.xib"; sourceTree = "<group>"; };
+		3B641C2E1937825D005EB21C /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		3B641C2F193782C1005EB21C /* Demo.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = Demo.mov; sourceTree = "<group>"; };
+		3B641C3419378551005EB21C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3B641C3619378554005EB21C /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		3B641C3719378731005EB21C /* kuaicopy.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = kuaicopy.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B641BB31937609F005EB21C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B641C281937820B005EB21C /* libxml2.2.dylib in Frameworks */,
+				3B641C2619378206005EB21C /* AVFoundation.framework in Frameworks */,
+				3B641BBA1937609F005EB21C /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B641BD41937609F005EB21C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B641BDA1937609F005EB21C /* Cocoa.framework in Frameworks */,
+				3B641BD91937609F005EB21C /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B641BAD1937609F005EB21C = {
+			isa = PBXGroup;
+			children = (
+				3B641C3719378731005EB21C /* kuaicopy.entitlements */,
+				3B641BBF1937609F005EB21C /* kuaicopy */,
+				3B641BDD1937609F005EB21C /* kuaicopyTests */,
+				3B641BB81937609F005EB21C /* Frameworks */,
+				3B641BB71937609F005EB21C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B641BB71937609F005EB21C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B641BB61937609F005EB21C /* kuaicopy.app */,
+				3B641BD71937609F005EB21C /* kuaicopyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B641BB81937609F005EB21C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B641C271937820B005EB21C /* libxml2.2.dylib */,
+				3B641C2519378206005EB21C /* AVFoundation.framework */,
+				3B641BB91937609F005EB21C /* Cocoa.framework */,
+				3B641BD81937609F005EB21C /* XCTest.framework */,
+				3B641BBB1937609F005EB21C /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3B641BBB1937609F005EB21C /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B641BBC1937609F005EB21C /* AppKit.framework */,
+				3B641BBD1937609F005EB21C /* CoreData.framework */,
+				3B641BBE1937609F005EB21C /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		3B641BBF1937609F005EB21C /* kuaicopy */ = {
+			isa = PBXGroup;
+			children = (
+				3B641C1B193781E7005EB21C /* TFHpple */,
+				3B641BCB1937609F005EB21C /* UTAppDelegate.h */,
+				3B641BCC1937609F005EB21C /* UTAppDelegate.m */,
+				3B641BED1937623B005EB21C /* UTAvFoundationView.h */,
+				3B641BEE1937623B005EB21C /* UTAvFoundationView.m */,
+				3B641C2B1937824A005EB21C /* MainMenu.xib */,
+				3B641BD11937609F005EB21C /* Images.xcassets */,
+				3B641BC01937609F005EB21C /* Supporting Files */,
+			);
+			path = kuaicopy;
+			sourceTree = "<group>";
+		};
+		3B641BC01937609F005EB21C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B641C2F193782C1005EB21C /* Demo.mov */,
+				3B641BC11937609F005EB21C /* kuaicopy-Info.plist */,
+				3B641BC21937609F005EB21C /* InfoPlist.strings */,
+				3B641BC51937609F005EB21C /* main.m */,
+				3B641BC71937609F005EB21C /* kuaicopy-Prefix.pch */,
+				3B641BC81937609F005EB21C /* Credits.rtf */,
+				3B641C3519378551005EB21C /* Localizable.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3B641BDD1937609F005EB21C /* kuaicopyTests */ = {
+			isa = PBXGroup;
+			children = (
+				3B641BE31937609F005EB21C /* kuaicopyTests.m */,
+				3B641BDE1937609F005EB21C /* Supporting Files */,
+			);
+			path = kuaicopyTests;
+			sourceTree = "<group>";
+		};
+		3B641BDE1937609F005EB21C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B641BDF1937609F005EB21C /* kuaicopyTests-Info.plist */,
+				3B641BE01937609F005EB21C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3B641C1B193781E7005EB21C /* TFHpple */ = {
+			isa = PBXGroup;
+			children = (
+				3B641C1C193781F8005EB21C /* TFHpple.h */,
+				3B641C1D193781F8005EB21C /* TFHpple.m */,
+				3B641C1E193781F8005EB21C /* TFHppleElement.h */,
+				3B641C1F193781F8005EB21C /* TFHppleElement.m */,
+				3B641C20193781F8005EB21C /* XPathQuery.h */,
+				3B641C21193781F8005EB21C /* XPathQuery.m */,
+			);
+			name = TFHpple;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B641BB51937609F005EB21C /* kuaicopy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B641BE71937609F005EB21C /* Build configuration list for PBXNativeTarget "kuaicopy" */;
+			buildPhases = (
+				3B641BB21937609F005EB21C /* Sources */,
+				3B641BB31937609F005EB21C /* Frameworks */,
+				3B641BB41937609F005EB21C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kuaicopy;
+			productName = kuaicopy;
+			productReference = 3B641BB61937609F005EB21C /* kuaicopy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B641BD61937609F005EB21C /* kuaicopyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B641BEA1937609F005EB21C /* Build configuration list for PBXNativeTarget "kuaicopyTests" */;
+			buildPhases = (
+				3B641BD31937609F005EB21C /* Sources */,
+				3B641BD41937609F005EB21C /* Frameworks */,
+				3B641BD51937609F005EB21C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B641BDC1937609F005EB21C /* PBXTargetDependency */,
+			);
+			name = kuaicopyTests;
+			productName = kuaicopyTests;
+			productReference = 3B641BD71937609F005EB21C /* kuaicopyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B641BAE1937609F005EB21C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = UT;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = xuxulll;
+				TargetAttributes = {
+					3B641BD61937609F005EB21C = {
+						TestTargetID = 3B641BB51937609F005EB21C;
+					};
+				};
+			};
+			buildConfigurationList = 3B641BB11937609F005EB21C /* Build configuration list for PBXProject "kuaicopy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 3B641BAD1937609F005EB21C;
+			productRefGroup = 3B641BB71937609F005EB21C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B641BB51937609F005EB21C /* kuaicopy */,
+				3B641BD61937609F005EB21C /* kuaicopyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B641BB41937609F005EB21C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B641C3819378731005EB21C /* kuaicopy.entitlements in Resources */,
+				3B641BC41937609F005EB21C /* InfoPlist.strings in Resources */,
+				3B641C3319378551005EB21C /* Localizable.strings in Resources */,
+				3B641BD21937609F005EB21C /* Images.xcassets in Resources */,
+				3B641C30193782C1005EB21C /* Demo.mov in Resources */,
+				3B641BCA1937609F005EB21C /* Credits.rtf in Resources */,
+				3B641C291937824A005EB21C /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B641BD51937609F005EB21C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B641BE21937609F005EB21C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B641BB21937609F005EB21C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B641BEF1937623B005EB21C /* UTAvFoundationView.m in Sources */,
+				3B641BC61937609F005EB21C /* main.m in Sources */,
+				3B641BCD1937609F005EB21C /* UTAppDelegate.m in Sources */,
+				3B641C22193781F8005EB21C /* TFHpple.m in Sources */,
+				3B641C24193781F8005EB21C /* XPathQuery.m in Sources */,
+				3B641C23193781F8005EB21C /* TFHppleElement.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B641BD31937609F005EB21C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B641BE41937609F005EB21C /* kuaicopyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B641BDC1937609F005EB21C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B641BB51937609F005EB21C /* kuaicopy */;
+			targetProxy = 3B641BDB1937609F005EB21C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3B641BC21937609F005EB21C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B641BC31937609F005EB21C /* en */,
+				3B641C2C1937825D005EB21C /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3B641BC81937609F005EB21C /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B641BC91937609F005EB21C /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		3B641BE01937609F005EB21C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B641BE11937609F005EB21C /* en */,
+				3B641C2E1937825D005EB21C /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3B641C2B1937824A005EB21C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B641C2A1937824A005EB21C /* en */,
+				3B641C2D1937825D005EB21C /* zh-Hans */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		3B641C3519378551005EB21C /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B641C3419378551005EB21C /* en */,
+				3B641C3619378554005EB21C /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B641BE51937609F005EB21C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = kuaicopy.entitlements;
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application: Jing Wang (2S99TBX93B)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "788D2904-F239-4E98-8EBC-743F90254EAD";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3B641BE61937609F005EB21C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = kuaicopy.entitlements;
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application: Jing Wang (2S99TBX93B)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PROVISIONING_PROFILE = "788D2904-F239-4E98-8EBC-743F90254EAD";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3B641BE81937609F005EB21C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = kuaicopy.entitlements;
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application: Jing Wang (2S99TBX93B)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "kuaicopy/kuaicopy-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/include/libxml2,
+				);
+				INFOPLIST_FILE = "kuaicopy/kuaicopy-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "788D2904-F239-4E98-8EBC-743F90254EAD";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3B641BE91937609F005EB21C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = kuaicopy.entitlements;
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application: Jing Wang (2S99TBX93B)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "kuaicopy/kuaicopy-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/include/libxml2,
+				);
+				INFOPLIST_FILE = "kuaicopy/kuaicopy-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "788D2904-F239-4E98-8EBC-743F90254EAD";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3B641BEB1937609F005EB21C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/kuaicopy.app/Contents/MacOS/kuaicopy";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "kuaicopy/kuaicopy-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "kuaicopyTests/kuaicopyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3B641BEC1937609F005EB21C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/kuaicopy.app/Contents/MacOS/kuaicopy";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "kuaicopy/kuaicopy-Prefix.pch";
+				INFOPLIST_FILE = "kuaicopyTests/kuaicopyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B641BB11937609F005EB21C /* Build configuration list for PBXProject "kuaicopy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B641BE51937609F005EB21C /* Debug */,
+				3B641BE61937609F005EB21C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B641BE71937609F005EB21C /* Build configuration list for PBXNativeTarget "kuaicopy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B641BE81937609F005EB21C /* Debug */,
+				3B641BE91937609F005EB21C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B641BEA1937609F005EB21C /* Build configuration list for PBXNativeTarget "kuaicopyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B641BEB1937609F005EB21C /* Debug */,
+				3B641BEC1937609F005EB21C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B641BAE1937609F005EB21C /* Project object */;
+}
